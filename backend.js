@@ -22,7 +22,7 @@ app.use(cookieParser())
 
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://taskmmanagerf-7kgr.vercel.app/',
     credentials: true,
   }));
 
